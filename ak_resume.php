@@ -1,12 +1,15 @@
-<?php
+<?php declare(strict_types=1);
 /**
 **  @author Кувшинов Андрей Геннадьевич <masterforweb@hotmail.com>
-**  Возраст: 39 лет
-**  Семейное положение: женат, двое детей
-**  Навыки: PHP, NodeJS, Python, Docker, Ethereum, Mac OS, Ubuntu, Sublime, Vim
+**  @param Возраст: 45 лет
+**  @param Семейное положение: женат, двое детей
+**  @param Навыки: PHP, NodeJS, Python, MySql, MsSql, Postgresql, Ethereum
+**  @param Рабочая среда: Ubuntu/Fedora/MacOs, Docker, PHPStorm, VSCode, vim
+** @return array
 */
 return array (
 
+  
   'argumenti.ru' => [
                     'компания'  => 'ИД «Аргументы Недели»',
                     'должность' => 'технический директор',
@@ -20,7 +23,7 @@ return array (
                                     Реализация проекта серии региональных порталов на базе фреймворка Django (Python).\n
                                     Создание и перепродажа видеохостинга с рабочим названием «ForVideo» (2007 год).\n
                                     Запуск тестового блокчейн-проекта на базе Ethereum.\n
-                                    Разработка бот-системы генерации автоматического контента.\n
+                                    Разработка системы генерации автоматического контента.\n
                                     Колумнист разделов «Хайтек» и «Бокс/ММА»."
                    ],
   
